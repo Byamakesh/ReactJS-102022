@@ -1,0 +1,62 @@
+/* Note Start */
+
+/* To put image and text side by side in a div(card) use: float: left; || display: inline-block; || display: flex; */
+
+
+/* Note End */
+
+header {
+    color: rgb(28, 188, 209);
+    text-align: center;
+}
+
+/* h3 {
+    color: white;
+    text-align: center;
+} */
+
+.card {
+    height: 450px;
+    background-color: skyblue;
+    width: 20%;
+    float: left;
+    /* display: inline-block; */
+    margin: 2%;
+    overflow: scroll;
+}
+
+.brown {
+    background-color: rgb(201, 198, 163);
+}
+
+#skyblue {
+    background-color: #6377cb;
+}
+
+#main {
+    display: inline-block;
+}
+
+#hcard {
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid red;
+    display: flex;
+}
+
+.idiv {
+    height: 100%;
+    width: 30%;
+}
+
+.idiv img {
+    height: 100%;
+    width: 100%;
+}
+
+.tdiv {
+    height: 100%;
+    width: 65%;
+    margin-left: 2%;
+}

@@ -1,5 +1,10 @@
 body {
     margin: auto;
+    background-color: #eedee8;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -71,17 +76,100 @@ select {
     text-align: center;
 }
 
-#restDrop{
+#restDrop {
     width: 59%;
 }
 
 /* QuickSearch */
 #quickSearch {
-    height: 600px;
-    border: 2px solid blue;
+    /* height: 600px; */
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#quickHeading {
+    font-size: 30px;
+    color: #3b2632;
+    display: block;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quickSubHeading {
+    font-size: 20px;
+    color: grey;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+#cardMain {
+    /* display: inline-block; */
+}
+
+.tileContainer {
+    height: 200px;
+    width: 30%;
+    /* border: 2px solid orangered; */
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 5px grey;
+}
+
+.tileComponent1 {
+    width: 50%;
+    float: left;
+}
+
+.tileComponent1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.tileComponent2 {
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 6%;
+    float: left;
+}
+
+.componentHeading {
+    color: #3b2632;
+    font-size: 25px;
+}
+
+.componentSubHeading {
+    color: grey;
+    font-size: 20px;
 }
 
 footer {
-    height: 80px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    margin-top: 3%;
+    background: #3b2632;
+    color: white;
+    text-align: center;
+}
+
+#footText {
+    font-size: 30px;
+}
+
+.footDiv {
+    height: 70px;
+    width: 33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder {
+    border: none;
+}
+
+.socialIcon {
+    height: 50px;
+    width: 50px;
 }

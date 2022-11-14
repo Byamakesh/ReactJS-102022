@@ -105,10 +105,6 @@ select {
     margin-left: 2%;
 }
 
-#cardMain {
-    /* display: inline-block; */
-}
-
 .tileContainer {
     height: 200px;
     width: 30%;

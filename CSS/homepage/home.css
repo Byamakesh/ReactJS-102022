@@ -169,3 +169,48 @@ footer {
     height: 50px;
     width: 50px;
 }
+
+@media screen and (max-width:1600px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body {
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color: orange;
+    }
+    .tileContainer{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: yellow;
+    }
+    .tileContainer{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: crimson;
+    }
+    .tileContainer{
+        width: 100%;
+    }
+}

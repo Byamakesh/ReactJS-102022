@@ -1,0 +1,18 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "this is the learning package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Byamakesh Mohapatra",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  }
+}

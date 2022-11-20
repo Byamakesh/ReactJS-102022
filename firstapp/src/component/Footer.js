@@ -1,12 +1,15 @@
 import React from 'react';
-const Header = () => {
+
+const Footer = () => {
     return (
         <div>
+            <hr />
             <center>
-                <h1>React App</h1>
+                <h3>&copy; Developer Funnel</h3>
             </center>
         </div>
     )
 }
 
-export default Header
+
+export default Footer;
